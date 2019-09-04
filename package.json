@@ -1,9 +1,9 @@
 {
   "name": "svelte-media-query",
   "description": "Svelte CSS Media Query",
-  "version": "0.0.3",
-  "main": "MediaQuery.svelte",
-  "svelte": "MediaQuery.svelte",
+  "version": "0.0.4",
+  "main": "./src/MediaQuery.svelte",
+  "svelte": "./src/MediaQuery.svelte",
   "repository": "https://github.com/xelaok/svelte-media-query",
   "author": "Alexander Kozlovich <alexander.kozlovich@gmail.com>",
   "license": "MIT",
