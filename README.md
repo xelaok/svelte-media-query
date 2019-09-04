@@ -13,7 +13,7 @@ npm i svelte-media-query
 
 ```html
 <script>
-    import MediaQuery from "./MediaQuery.svelte";
+    import MediaQuery from "svelte-media-query";
 </script>
 
 <MediaQuery query="(min-width: 1281px)" let:matches>
