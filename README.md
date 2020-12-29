@@ -1,4 +1,4 @@
-## svelte-media-query
+## svelte-media-query ([npm](https://www.npmjs.com/package/svelte-media-query), [demo](https://svelte.dev/repl/26eb44932920421da01e2e21539494cd))
 CSS media queries in svelte.
 
 ## Installation
@@ -8,8 +8,6 @@ npm i svelte-media-query
 ```
 
 ## Usage
-
-[Demo](https://svelte.dev/repl/26eb44932920421da01e2e21539494cd)
 
 ```html
 <script>
