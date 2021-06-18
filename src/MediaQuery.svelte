@@ -25,13 +25,13 @@
     function addNewListener(query) {
         mql = window.matchMedia(query);
         mqlListener = (v) => (matches = v.matches);
-        mql.addEventListener("event", mqlListener);
+        mql.addEventListener("change", mqlListener);
         matches = mql.matches;
     }
 
     function removeActiveListener() {
         if (mql && mqlListener) {
-            mql.removeEventListener("event", mqlListener);
+            mql.removeEventListener("change", mqlListener);
         }
     }
 </script>
